@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 5087266072994623068}
   m_Layer: 0
   m_Name: Proto_Character_Avatar_Masculine_01_Atlased
-  m_TagString: Untagged
+  m_TagString: AI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -510,6 +510,7 @@ GameObject:
   - component: {fileID: 1106840793049280066}
   - component: {fileID: 8426906957739139432}
   - component: {fileID: 106736424378823304}
+  - component: {fileID: 6952151740818460270}
   m_Layer: 0
   m_Name: Proto_Character_Avatar_Masculine_01_Atlased_Rigged
   m_TagString: AI
@@ -606,9 +607,9 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Radius: 0.33
+  m_Radius: 0.4
   m_Height: 1.6888962
   m_Direction: 1
   m_Center: {x: 0.0022405386, y: 0.8544998, z: -0.033342868}
@@ -639,6 +640,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 32
   m_CollisionDetection: 0
+--- !u!65 &6952151740818460270
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3059868407516337531}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.7025701, z: 0.4210779}
+  m_Center: {x: 0, y: 0.8520189, z: 0}
 --- !u!1 &3150403484637488779
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,7 +1454,7 @@ GameObject:
   - component: {fileID: 7055901978370641687}
   m_Layer: 0
   m_Name: Humanoid_Masculine_Rigged_Atlased
-  m_TagString: Untagged
+  m_TagString: AI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

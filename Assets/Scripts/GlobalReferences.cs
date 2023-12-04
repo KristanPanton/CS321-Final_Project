@@ -6,6 +6,7 @@ public class GlobalReferences : MonoBehaviour
 {
     public static GlobalReferences Instance { get; set; }
     public GameObject bulletImpactEffectPrefab;
+    public static int numEnemies;
 
     private void Awake()
     {
@@ -18,4 +19,13 @@ public class GlobalReferences : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (numEnemies == 0)
+        {
+            print("You win!");
+            // load next scene
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Win");
+        }
+    }
 }

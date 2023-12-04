@@ -17,6 +17,9 @@ public class Navigator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        agent.destination = player.transform.position;
+        if (agent.enabled)
+        {
+            agent.destination = player.transform.position;
+        }
     }
 }
