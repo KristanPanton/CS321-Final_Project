@@ -25,7 +25,7 @@ public class GlobalReferences : MonoBehaviour
         {
             print("You win!");
             // load next scene
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Win");
+            //UnityEngine.SceneManagement.SceneManager.LoadScene("Win");
         }
     }
 }
