@@ -1,0 +1,11 @@
+
+*.lock
+Temp/__Backupscenes/0.backup
+Temp/FSTimeGet-3ec77598c320b1941a1b606d1c7b2da8
+Temp/FSTimeGet-54cb6e027dd52d946955f5738375d1cc
+Temp/FSTimeGet-7117eb483904c47498f0eda3f4f7afa7
+Temp/UnityLockfile
+Temp/workerlic
+obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
